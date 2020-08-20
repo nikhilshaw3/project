@@ -36,7 +36,7 @@ ground1.shapeColor = "yellow";
 ground = Bodies.rectangle(width/2, 610, 3000, 10 , {isStatic:true} );
 World.add(world, ground);
 
-ball = new Box.Bodies.circle(100, 200 , 5,options);
+ball = Bodies.circle(100, 200 , 5,options);
 World.add(world, ball);
 
 console.log(ground);
